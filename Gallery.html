@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Homepage</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            font-size: 18px;
+            background: url("images/background.jpg") no-repeat center fixed;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: mediumpurple;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #660066;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111111;
+        }
+
+        .active {
+            background-color: transparent;
+        }
+
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 35px;
+            color: #660066;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .gallery {
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 600px;
+            height: 1000px;
+            object-fit: cover;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: mediumpurple;
+            padding: 8px;
+            text-align: center;
+            color: #660666;
+            font-family: 'Courier New', monospace;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">About me</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Travel.html">Travel</a></li>
+        <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+
+    <h1>Some Photos of Me and My Friends</h1>
+
+    <div class="gallery">
+        <img src="images/gallery1.png" alt="gallery1">
+        <img src="images/gallery2.png" alt="gallery2">
+    </div>
+
+    <footer>
+        <p>&copy; HakCiptaYuyu2025</p>
+    </footer>
+
+</body>
+</html>
